@@ -1,7 +1,7 @@
 # Simumatik Scoreboard
 
 Test task for Simumatik. Simple scoreboard app built with React, using [Ant Design](https://ant.design/) UI library.
-The app can be viewed [here](https://simumatik-scoreboard.netlify.app/).
+The app can be viewed [here](https://scoreboard-johns.netlify.app/).
 
 ## Available Scripts
 
