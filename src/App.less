@@ -1,0 +1,41 @@
+@import '~antd/dist/antd.less';
+
+@media (prefers-reduced-motion: no-preference) {
+  
+}
+
+.logo {
+  height: 31px;
+}
+
+.logo a img {
+  height: 100%;
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-layout-header, .ant-layout-footer {
+  flex: 0 1 auto;
+}
+
+.ant-layout-content {
+  flex: 1 1 auto;
+  padding: 0 50px;
+}
+
+@media only screen and (max-width: @screen-xs) {
+  .ant-layout-header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ant-layout-content {
+    padding: 0;
+  }
+
+  .scoreboard-header {
+    flex-direction: column;
+  }
+}
